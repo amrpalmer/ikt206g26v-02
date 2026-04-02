@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build ../ClassLibraryProjects/StringLibrary/StringLibrary.sln --no-restore
+      run: dotnet build ../ClassLibraryProjects/StringLibrary/ --no-restore
     - name: Test
-      run: dotnet test ../ClassLibraryProjects/StringLibrary/StringLibrary.sln --no-build --verbosity normal
+      run: dotnet test ../ClassLibraryProjects/StringLibrary/ --no-build --verbosity normal
