@@ -1,5 +1,5 @@
 ﻿namespace UtilityLibraries;
-
+// test change for GitHub Actions
 public static class StringLibrary
 {
     public static bool StartsWithUpper(this string? str)
