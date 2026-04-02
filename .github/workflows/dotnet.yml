@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ClassLibraryProjects/StringLibrary/StringLibrary.sln
     - name: Build
       run: dotnet build ClassLibraryProjects/StringLibrary/StringLibrary.sln --no-restore
     - name: Test
